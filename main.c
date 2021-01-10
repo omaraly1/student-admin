@@ -286,6 +286,7 @@ int saveTeachers(Teacher *teachers, int numTeachers)
             fprintf(fp,"%i\n",teachers[i].courseID[j]);
         }
         fclose(fp);
+        
 
         printf("Teacher file data saved properly.\n");
         return 1;
